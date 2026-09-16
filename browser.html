@@ -40,16 +40,11 @@
       user-select: none;
     }
 
-    /* Fix for iOS Safari text input behavior */
-    input, textarea {
-      user-select: text;
-    }
-
     body {
       font-family: 'Montserrat', sans-serif;
       background: radial-gradient(circle at center, #FFFFFF 0%, #F4F1EA 100%);
       color: var(--dark-carbon);
-      min-height: 100dvh; /* Updated to 100dvh to handle mobile address bars smoothly */
+      min-height: 100vh;
       overflow-x: hidden;
       display: flex;
       flex-direction: column;
